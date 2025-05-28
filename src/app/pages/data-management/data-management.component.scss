@@ -1,0 +1,82 @@
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.user-section,
+.update-section,
+.transform-section,
+.validation-section {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-info {
+  margin-top: 1rem;
+  p {
+    margin: 0.5rem 0;
+  }
+}
+
+.preferences {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+
+  h4 {
+    margin: 0 0 0.5rem 0;
+  }
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+}
+
+.transformed-info {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+
+  p {
+    margin: 0.5rem 0;
+  }
+}
+
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  &:hover {
+    background: #2980b9;
+  }
+} 

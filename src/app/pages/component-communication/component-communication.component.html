@@ -1,0 +1,26 @@
+<div class="container">
+  <h2>Component Communication Test</h2>
+  <p>This component demonstrates parent-child communication.</p>
+
+  <div class="parent-section">
+    <h3>Parent Component</h3>
+    <div class="input-group">
+      <input 
+        type="text" 
+        [(ngModel)]="message"
+        placeholder="Enter message"
+      >
+    </div>
+
+    @if (receivedMessages.length > 0) {
+      <div class="messages">
+        <h4>Received Messages:</h4>
+        @for (msg of receivedMessages; track msg) {
+          <p>{{ msg }}</p>
+        }
+      </div>
+    }
+  </div>
+
+  <app-child></app-child>
+</div> 

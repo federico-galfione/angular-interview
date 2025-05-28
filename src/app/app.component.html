@@ -332,5 +332,16 @@
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<div class="container">
+  <h1>{{ title }}</h1>
+  
+  <div class="tests-grid">
+    <div *ngFor="let test of tests" class="test-card">
+      <h2>{{ test.name }}</h2>
+      <p>{{ test.description }}</p>
+      <a [routerLink]="test.path" class="test-link">Start Test</a>
+    </div>
+  </div>
 
-<router-outlet />
+  <router-outlet></router-outlet>
+</div>

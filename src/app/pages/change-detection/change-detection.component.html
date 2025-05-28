@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Change Detection Test</h2>
+  <p>This component has performance issues due to inefficient change detection.</p>
+  <p>Current time: {{ getCurrentTime() }}</p>
+  <button (click)="updateData()">Update Data</button>
+  
+  <div class="data-grid">
+    @for (item of getProcessedData(); track item.id) {
+      <div class="data-item">
+        <h3>{{ item.name }}</h3>
+        <p>Value: {{ item.value | number:'1.2-2' }}</p>
+        <p>Processed: {{ item.processedValue | number:'1.2-2' }}</p>
+        <p>Category: {{ item.category }}</p>
+        <p>Last updated: {{ item.lastUpdated | date:'medium' }}</p>
+      </div>
+    }
+  </div>
+</div> 
