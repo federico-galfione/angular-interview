@@ -9,7 +9,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
   templateUrl: './form-validation.component.html',
   styleUrls: ['./form-validation.component.scss']
 })
-// Validate the form and show the error message only if the input is invalid.
+
 export class FormValidationComponent {
   userForm: FormGroup;
   submitted = false;

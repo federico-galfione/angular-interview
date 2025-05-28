@@ -15,7 +15,7 @@ interface DataItem {
   templateUrl: './change-detection.component.html',
   styleUrls: ['./change-detection.component.scss']
 })
-// Here there is a big change detection performance issue. Can you spot it?
+
 export class ChangeDetectionComponent {
   items: DataItem[] = Array.from({ length: 100 }, (_, i) => ({
     id: i + 1,

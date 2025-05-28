@@ -78,20 +78,15 @@ export class AppComponent {
       name: 'Change Detection Test',
       description: 'Optimize change detection and performance'
     },
-    //{
-     // path: '/change-detection-2',
-     // name: 'Change Detection 2 Test',
-      //description: 'Change detection error'
-    //},
     {
       path: '/rxjs-subscription',
       name: 'RxJS Subscription Test',
-      description: 'Fix RxJS subscription management and error handling'
+      description: 'Display data with rxjs'
     },
     {
       path: '/data-management',
       name: 'Data Management Test',
-      description: 'Fix data transformation and type safety issues'
+      description: 'Fix the issues in this component'
     },
   ];
 }
