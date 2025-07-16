@@ -2,10 +2,6 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'change-detection',
-    loadComponent: () => import('./pages/change-detection/change-detection.component').then(m => m.ChangeDetectionComponent)
-  },
-  {
     path: 'form-validation',
     loadComponent: () => import('./pages/form-validation/form-validation.component').then(m => m.FormValidationComponent)
   },

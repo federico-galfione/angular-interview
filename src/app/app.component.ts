@@ -74,11 +74,6 @@ export class AppComponent {
       description: 'Implement proper form validation and error handling'
     },
     {
-      path: '/change-detection',
-      name: 'Change Detection Test',
-      description: 'Optimize change detection and performance'
-    },
-    {
       path: '/rxjs-subscription',
       name: 'RxJS Subscription Test',
       description: 'Display data with rxjs'

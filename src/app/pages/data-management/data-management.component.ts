@@ -42,9 +42,9 @@ export class DataManagementComponent {
     return {
       ...user,
       preferences: {
-        ...user.preference,
+        ...user.prefer,
         ...newPreferences
       }
     };
   }
-} 
+}
